@@ -1,0 +1,25 @@
+{
+	"TRAIN_RAW_DATA_DIR" : "data/stage_2_train_images",
+	"TEST_RAW_DATA_DIR" : "data/stage_2_test_images",
+	"TRAIN_CLEAN_DATA_DIR" : "data/stage_2_train_images_png",
+	"TEST_CLEAN_DATA_DIR" : "data/stage_2_test_images_png",
+
+	"TRAINING_SPLIT_DIR" : "training_splits",
+
+	"DETAILED_CLASS_INFO" : "data/stage_2_detailed_class_info.csv",
+	"TRAIN_LABELS" : "data/stage_2_train_labels.csv",
+
+	"CLASSIFICATION_WEIGHTS_DIR" : "classification/weights",
+ 	"CLASSIFICATION_RESULTS_DIR" : "classification/results",
+
+	"DETECTION_WEIGHTS_DIR" : "detection/weights",
+	"DETECTION_RESULTS_DIR" : "detection/results",
+
+	"ANCHOR_SPLIT_1" : [55,53, 65,102, 79,171, 82,71, 86,129, 98,217, 104,100, 112,159, 126,246],
+	"ANCHOR_SPLIT_2" : [59,79, 61,48, 73,113, 86,160, 91,77, 96,222, 108,117, 117,179, 126,260],
+	"ANCHOR_SPLIT_3" : [59,79, 61,48, 73,113, 86,160, 91,77, 96,222, 108,117, 117,179, 126,260],
+	"ANCHOR_SPLIT_4" : [59,79, 61,48, 73,113, 86,160, 91,77, 96,222, 108,117, 117,179, 126,260],
+	"ANCHOR_SPLIT_5" : [76,77, 96,148, 119,96, 121,222, 135,319, 144,140, 161,191, 168,273, 182,378]
+
+
+}

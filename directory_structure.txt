@@ -1,0 +1,17 @@
+.
+./classification
+./classification/results
+./classification/weights
+./data
+./data/stage_2_test_images
+./data/stage_2_test_images_png
+./data/stage_2_train_images
+./data/stage_2_train_images_png
+./detection
+./detection/results
+./detection/utils
+./detection/utils/__pycache__
+./detection/weights
+./detection/__pycache__
+./preprocessing
+./training_splits
