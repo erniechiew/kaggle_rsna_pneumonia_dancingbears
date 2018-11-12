@@ -42,11 +42,11 @@ which will convert the training and test images from DCM to PNG format, respecti
 
 ### Generate 5-fold CV splits (Optional)
 
-We provide the splits we used for our final submission in `training_splits/`. But if you wish to generate new splits (and overwrite the provided splits), in the `preprocessing` directory, run
+We provide the splits we used for our final submission in `training_splits/`. **For the purposes of reproducing our solution on the leaderboard, please use provided splits**. If you wish to generate new splits (and overwrite the provided splits), in the `preprocessing` directory, run
 ```
 python train_split_generator.py
 ```
-Generated splits will be stored in `training_splits/` folder.
+Generated splits will be stored in `training_splits/` folder (and will overwrite any existing splits).
 
 
 ## Training
@@ -110,5 +110,3 @@ We used code and pre-trained weights from the following repositories:
 https://github.com/brucechou1983/CheXNet-Keras
 
 https://github.com/experiencor/keras-yolo3
-
-
